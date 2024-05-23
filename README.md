@@ -9,9 +9,9 @@ public class Main {
         System.out.println("Введите дату постулпения:");
         String data_postupil = input.nextLine();
         Student[] massiv = new Student[3];
-        massiv[0] = new Student("Safarov.A.A", "2023.01.01","Street1",79042661461L, 1,"Инф-Тех");
-        massiv[1] = new Student("Agisev.A.A", "2023.01.01","Street2",79042634461L, 1,"Инф-Тех");
-        massiv[2] = new Student("Neronov.I.S", "2023.01.01","Street3",79022661461L, 1,"Инф-Тех");
+        massiv[0] = new Student("Elmeev.D.S", "2023.09.01","Street1",79042661461L, 1,"Инф-Тех");
+        massiv[1] = new Student("Lifanov.S.I", "2023.09.01","Street2",79042634461L, 1,"Инф-Тех");
+        massiv[2] = new Student("Rosanov.A.K", "2023.09.01","Street3",79022661461L, 1,"Инф-Тех");
         for(int i =0;i < massiv.length;i++){
             System.out.println(massiv[i].getFIO());
             if(massiv[i].getFakultet().equals(fakultet)){
